@@ -1,11 +1,11 @@
 ﻿body {
-    font-family:'Open Sans', sans-serif;
+    font-family: Apple Chancery, cursive;
     font-size:14px;
     background-image:url(../img/mini-profile-bg-02.jpg);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Open Sans', sans-serif;
+    font-family:Apple Chancery, cursive;
 }
 
 h1 {
@@ -80,7 +80,7 @@ section {
 
 .c-blue {
    background-color:rgb(31, 29, 29);
-   opacity: 0.7;
+   opacity: 0.8;
    color:#fff;
 }
 .form-control {
@@ -94,11 +94,11 @@ section {
 
 }
 #home-sec {
-    background-image: url(../img/new-aesthetic-wallpapers-1920x1080-windows-10.jpg)
+    background-image: url(../img/emile-perron-xrVDYZRGdw4-unsplash-copy.jpg)
 }
 #home {
-    padding-top:180px;
-    padding-bottom:280px;
+    padding-top:200px;
+    padding-bottom:230px;
     color:rgb(0, 0, 0);
 }
 .head-main {
@@ -136,27 +136,28 @@ border-radius: 0px;
 }
 
 .plan {
-    background: #D8D8D8;
+    background: #70776f;
     padding: 0 0 15px 0;
     margin: 30px 0px;
     list-style: none;
     text-align: center;
-  
+    opacity: 0.9
 }
 
 .plan li {
    padding: 25px 0px;
-color: #000000;
-font-size: 25px;
+color: #ffffff;
+font-size: 20px;
+font-weight: 300;
 }
 
 .plan li.plan-head {
     background-color:#000!important;
    padding: 15px 0px;
-color: #FFFFFF;
+color: #ffffff;
 line-height: 20px;
-font-size: 20px;
-font-weight: 600;
+font-size: 24px;
+font-weight: 400;
 border: none;
    }
 
