@@ -163,12 +163,12 @@
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Name">
+                                        <input type="text" class="form-control" placeholder="Name">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" required="required"
+                                        <input type="text" class="form-control"
                                             placeholder="Email address">
                                     </div>
                                 </div>
@@ -176,34 +176,43 @@
                             <div class="row">
                                 <div class="col-md-12 col-sm-12">
                                     <div class="form-group">
-                                        <textarea name="message" id="message" required="required" class="form-control"
+                                        <textarea name="message" id="message" class="form-control"
                                             rows="3" placeholder="Message"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                        <button type="submit" class="btn btn-primary" onclick="submitMessage()">Submit</button>
                                     </div>
                                 </div>
                             </div>
                         </form>
                     </div>
                     <div class="col-md-6">
-                        <p>
-                            <strong>Address:</strong>13th Cross Rd Venkatapur Bangalore 560034 <br />
-                            <strong>Email:</strong> sv_shivansh@outlook.com <br />
-                            <strong>Instagram:</strong><a href="https://www.instagram.com/sv_shivansh/">
-                                @sv_shivansh</a><br />
-                            <strong>Github:</strong><a href="https://github.com/sv-shivansh">
-                                    @sv-shivansh</a><br />
-                            <strong>Mobile:</strong> +91-9634244604<br />
-                        </p>
+                        <div class="contact-form">
+                            <p>
+                                <strong>Address:</strong>13th Cross Rd Venkatapur Bangalore 560034 <br />
+                                <strong>Email:</strong> sv_shivansh@outlook.com <br />
+                                <strong>Instagram:</strong><a href="https://www.instagram.com/sv_shivansh/">
+                                    @sv_shivansh</a><br />
+                                <strong>Github:</strong><a href="https://github.com/sv-shivansh">
+                                        @sv-shivansh</a><br />
+                                <strong>LinkedIn:</strong><a href="https://www.linkedin.com/in/shivansh-vishwakarma-8a6a82205">
+                                            @shivansh-vishwakarma</a><br />
+                                <strong>Mobile:</strong> +91-9634244604<br />
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <div id="footer">
-        19BTRCY029 | B.Tech | CSE- IOT | 4th sem 
+        19BTRCY029 | SET Jain University | B.Tech | CSE- IOT | Student
     </div>
 </body>
+<script>
+    function submitMessage(){
+        alert('This feature is not available at the moment.\nKindle mail me at the given Email.\nSorry for the trouble caused.')
+    }
+</script>
 
 </html>

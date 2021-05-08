@@ -198,6 +198,24 @@ border: none;
     text-align:right;
 }
 
+.contact-form{
+    background-color: #70776f;
+    padding-top: 5px;
+    padding-left: 20px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+div.contact-form p{
+    color: #000000;
+    font-weight: bold;
+}
+
+.contact-form a{
+    color: rgb(100, 41, 7);
+}
+
+
 
 
 
